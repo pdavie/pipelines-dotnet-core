@@ -6,8 +6,8 @@
 trigger:
 - {{ branch }}
 
-#pool:
-# {{ pool }}
+pool:
+ {{ pool }}
 
 variables:
   buildConfiguration: 'Release'
