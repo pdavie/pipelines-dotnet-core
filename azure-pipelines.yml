@@ -6,10 +6,8 @@
 trigger:
 - {{ branch }}
 
-#pool:
-# {{ pool }}
 pool:
-  vmImage: ubuntu-latest # This is the default if you don't specify a pool or vmImage.
+  {{ pool }}
 
 variables:
   buildConfiguration: 'Release'
